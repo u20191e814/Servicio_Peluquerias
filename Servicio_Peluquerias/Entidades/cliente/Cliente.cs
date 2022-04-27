@@ -4,6 +4,7 @@ namespace Servicio_Peluquerias.Entidades
 {
     public class Cliente
     {
+
         [Required]
         public string Nombre { get; set; }
         [Required]
@@ -13,6 +14,21 @@ namespace Servicio_Peluquerias.Entidades
         [Required]
         public string telefono { get; set; }
         [Required]
+        public string Clave { get; set; }
+    }
+
+    public class Cliente_output
+    {
+
+        public int id_cliente { get; set; }
+        public string Nombre { get; set; }
+       
+        public string Apellido { get; set; }
+        
+        public string Correo { get; set; }
+       
+        public string telefono { get; set; }
+      
         public string Clave { get; set; }
     }
 }

@@ -4,6 +4,6 @@
     {
         public int Pk_categoria { get; set; }
         public string Nombre { get; set; }
-        public int CodeImagen { get; set; }
+        public string ImagenCat { get; set; }
     }
 }
